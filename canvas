@@ -2,7 +2,7 @@
   "@context": {
     "id": "@id",
     "type": "@type",
-    "canvas": "http://raw.githubusercontent.com/thomas-siimpl/canvas-contexts/master/caliper/Context.json",
+    "canvas": "http://raw.githubusercontent.com/thomas-siimpl/canvas-contexts/master/canvas/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "GradeChangedEvent": "canvas:GradeChangedEvent",
     "Attachment": "canvas:Attachment",
