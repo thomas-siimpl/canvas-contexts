@@ -1,3 +1,26 @@
 {
-  "@context": {}
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "canvas": "http://raw.githubusercontent.com/thomas-siimpl/canvas-contexts/master/caliper/Context.json",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "GradeChangedEvent": "canvas:GradeChangedEvent",
+    "Attachment": "canvas:Attachment",
+    "AssociatedUserAccount": "canvas:AssociatedUserAccount",
+    "Enrollment": "canvas:Enrollment",
+    "EnrollmentState": "canvas:EnrollmentState",
+    "GradeChangedSubmission": "canvas:GradeChangedSubmission",
+    "displayName": {
+      "@id": "canvas:displayName",
+      "@type": "xsd:string"
+    },
+    "fileName": {
+      "@id": "canvas:fileName",
+      "@type": "xsd:string"
+    },
+    "folderId": {
+      "@id": "canvas:folderId",
+      "@type": "xsd:string"
+    }
+  }
 }
