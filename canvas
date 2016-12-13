@@ -2,17 +2,27 @@
   "@context": {
     "id": "@id",
     "type": "@type",
+
     "canvas": "http://raw.githubusercontent.com/thomas-siimpl/canvas-contexts/master/canvas/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "GradeChangedEvent": "canvas:GradeChangedEvent",
+
     "Attachment": "canvas:Attachment",
     "AssociatedUserAccount": "canvas:AssociatedUserAccount",
     "Enrollment": "canvas:Enrollment",
     "EnrollmentState": "canvas:EnrollmentState",
-    "GradeChangedSubmission": "canvas:GradeChangedSubmission",
-    "displayName": {
-      "@id": "canvas:displayName",
+    "Grade": "canvas:Grade",
+
+    "previousName": {
+      "@id": "canvas:previousName",
       "@type": "xsd:string"
+    },
+    "previousBody": {
+      "@id": "canvas:previousBody",
+      "@type": "xsd:string"
+    },
+    "previousTotalScore": {
+      "@id": "canvas:previousTotalScore",
+      "@type": "xsd:double"
     },
     "fileName": {
       "@id": "canvas:fileName",
@@ -20,6 +30,22 @@
     },
     "folderId": {
       "@id": "canvas:folderId",
+      "@type": "xsd:string"
+    },
+    "isAccessRestricted": {
+      "@id": "canvas:isAccessRestricted",
+      "@type": "xsd:boolean"
+    },
+    "isAccessCurrent": {
+      "@id": "canvas:isAccessCurrent",
+      "@type": "xsd:boolean"
+    },
+    "grade": {
+      "@id": "canvas:grade",
+      "@type": "xsd:string"
+    },
+    "previousGrade": {
+      "@id": "canvas:previousGrade",
       "@type": "xsd:string"
     }
   }
